@@ -2,7 +2,7 @@
 
 A hands-on learning portfolio covering Microsoft 365 identity administration, authentication, Windows troubleshooting, Microsoft Graph PowerShell, and Intune configuration. The project models support work for a fictional small business, Contoso Ltd., and supports preparation for IT Support and Service Desk roles.
 
-**Status:** In progress. The repository contains 11 simulated support tickets, lab reports, and learning materials. Reusable PowerShell scripts and interview materials are still planned.
+The repository contains 11 simulated support tickets, lab reports, and learning materials.
 
 ## Lab Environment
 
@@ -15,7 +15,7 @@ A hands-on learning portfolio covering Microsoft 365 identity administration, au
 | Azure Windows VM | Windows service, DNS, network, and update diagnostics |
 | Microsoft Intune | Compliance policy, update ring, and enrollment configuration |
 
-The Azure subscription and Microsoft 365 tenant use separate directories. The Windows VM was last confirmed stopped and deallocated; related Azure resources remain, and final cost review and cleanup are pending.
+The Azure subscription and Microsoft 365 tenant use separate directories. The Windows VM was last confirmed stopped and deallocated; related Azure resources remain.
 
 ## Practical Work
 
@@ -63,7 +63,7 @@ Ticket numbers follow the lab's exercise sequence. Each record describes its own
 | Location | Contents |
 |---|---|
 | [Organization scenario](architecture/company-scenario.md) | Fictional company and department design |
-| [Environment diagram](architecture/environment-diagram.md) | Initial setup diagram; an update to reflect later lab work is pending |
+| [Environment diagram](architecture/environment-diagram.md) | Initial setup diagram |
 | [Lab reports](docs/) | English records of performed exercises and verification limits |
 | [Support tickets](tickets/) | Simulated requests, incidents, investigations, and a tabletop exercise |
 | [Learning materials](lessons/) | Primarily Japanese explanations and guided exercises; instructions are not evidence of execution |
@@ -77,14 +77,6 @@ Configuration checks, executed troubleshooting, proposed actions, and tabletop d
 
 AI assistance was used for explanations, command preparation, and documentation. The learning focus is selecting useful checks, interpreting results, verifying changes, and explaining the limits of the evidence.
 
-Public records omit tenant identifiers, real account addresses, credentials, authentication secrets, and environment-specific network identifiers. New screenshots and exports should be reviewed before publication.
-
-## Remaining Portfolio Work
-
-- Update the environment diagram and add a dedicated endpoint-management report.
-- Build and validate three reusable PowerShell scripts with execution instructions and error handling.
-- Create a skills matrix and English interview scenarios grounded in the completed exercises.
-- Review documentation and any future evidence files before publication.
-- Review Azure costs and remove resources that are no longer needed.
+Public records omit tenant identifiers, real account addresses, credentials, authentication secrets, and environment-specific network identifiers.
 
 Exchange Online, SharePoint, Teams, Autopilot, and Defender for Endpoint appear in the learning plan or materials. Their operational exercises are not claimed as completed in this portfolio.
